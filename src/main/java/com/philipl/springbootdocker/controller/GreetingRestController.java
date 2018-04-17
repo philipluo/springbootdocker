@@ -16,6 +16,6 @@ public class GreetingRestController {
     public String hello(){
         String timeString = String.format("%tT%n", new Date());
         logger.info("hello: "+ timeString);
-        return "<h1>Hello world</h1>"+timeString;
+        return "<h1>Hello Philip</h1>"+timeString;
     }
 }
